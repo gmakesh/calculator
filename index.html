@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Calculator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="calculator">
+    <div id="display" class="display" aria-live="polite">0</div>
+
+    <div class="keys">
+      <button data-action="clear" class="key fn">C</button>
+      <button data-action="backspace" class="key fn" aria-label="Backspace">⌫</button>
+      <button data-op="/" class="key op" aria-label="Divide">÷</button>
+      <button data-op="*" class="key op" aria-label="Multiply">×</button>
+
+      <button data-digit="7" class="key">7</button>
+      <button data-digit="8" class="key">8</button>
+      <button data-digit="9" class="key">9</button>
+      <button data-op="-" class="key op" aria-label="Subtract">−</button>
+
+      <button data-digit="4" class="key">4</button>
+      <button data-digit="5" class="key">5</button>
+      <button data-digit="6" class="key">6</button>
+      <button data-op="+" class="key op" aria-label="Add">+</button>
+
+      <button data-digit="1" class="key">1</button>
+      <button data-digit="2" class="key">2</button>
+      <button data-digit="3" class="key">3</button>
+      <button data-action="equals" class="key equals" aria-label="Equals">=</button>
+
+      <button data-digit="0" class="key zero">0</button>
+      <button data-action="decimal" class="key" aria-label="Decimal point">.</button>
+    </div>
+  </main>
+</body>
+</html>
