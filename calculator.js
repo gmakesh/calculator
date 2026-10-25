@@ -97,7 +97,7 @@ export function createCalculator() {
 
     backspace() {
       resetIfNeeded();
-      if (justEvaluated === true) return;
+      if (justEvaluated === true || justEvaluated === 'operator') return;
       current = current.length > 1 ? current.slice(0, -1) : '0';
     },
 

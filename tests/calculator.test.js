@@ -89,3 +89,9 @@ test('EC4: floating-point results are rounded', () => {
   press(c, '0', '.', '3', '-', '0', '.', '1', '=');
   assert.strictEqual(c.display(), '0.2');
 });
+
+test('EC5: backspace right after an operator does nothing', () => {
+  const c = createCalculator();
+  press(c, '5', '+', 'B');
+  assert.strictEqual(c.display(), '5');
+});

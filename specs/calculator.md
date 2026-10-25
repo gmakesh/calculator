@@ -14,6 +14,7 @@ A browser-based calculator for basic arithmetic.
 - EC2: Only one decimal point per number
 - EC3: Pressing an operator twice replaces the first one
 - EC4: Floating-point results are rounded (0.1 + 0.2 = 0.3)
+- EC5: Backspace right after an operator does nothing
 
 ## Non-Functional Requirements
 - NFR1: Works on screens as narrow as 320px
